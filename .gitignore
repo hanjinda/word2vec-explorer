@@ -3,3 +3,4 @@ node_modules
 models
 *.pyc
 .DS_Store
+GoogleNews-vectors-negative300.bin

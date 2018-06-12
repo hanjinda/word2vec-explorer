@@ -75,7 +75,7 @@ class Model(object):
         try:
             self.model = gensim.models.Word2Vec.load(filename)
         except cPickle.UnpicklingError:
-            load = gensim.models.Word2Vec.load_word2vec_format
+            load = gensim.models.KeyedVectors.load_word2vec_format
             self.model = load(filename, binary=True)
 
     def autocomplete(self, query, limit):
