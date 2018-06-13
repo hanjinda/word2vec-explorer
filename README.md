@@ -2,6 +2,7 @@
 # Word2Vec Explorer
 
 forked from dominiek/word2vec-explorer
+Thanks Dominiek for building this awesome tool!
 
 This tool helps you visualize, query and explore Word2Vec models. Word2Vec is a deep learning technique that feeds massive amounts of text into a shallow neural net which can then be used to solve a variety of NLP and ML problems.
 
