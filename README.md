@@ -21,7 +21,7 @@ To install all Python depenencies:
 
 ```bash
 pip install -r requirements.txt
-sudo pip -U install Cython routes cherrypy tsne 
+sudo pip install -U Cython routes cherrypy tsne 
 ```
 
 ### Usage
