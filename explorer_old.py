@@ -1,12 +1,9 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
 import math
 import gensim
 import cPickle
 import numpy as np
 from tsne import bh_sne
 from sklearn.cluster import KMeans
-#import gensim.models.keyedvectors as word2vec
 from gensim.models import KeyedVectors
 
 class Exploration(dict):
@@ -78,8 +75,8 @@ class Model(object):
             self.model = gensim.models.Word2Vec.load(filename)
         except cPickle.UnpicklingError:
             self.model = KeyedVectors.load_word2vec_format(filename, binary=False)
-            #load = gensim.models.Word2Vec.load_word2vec_format
-            #self.model = load(filename, binary=False)
+            # load = gensim.models.KeyedVectors.load_word2vec_format
+            # self.model = load(filename, binary=False)
 
     def autocomplete(self, query, limit):
         words = []

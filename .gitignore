@@ -4,3 +4,5 @@ models
 *.pyc
 .DS_Store
 GoogleNews-vectors-negative300.bin
+kw_wordphrase_vector100.txt
+out
