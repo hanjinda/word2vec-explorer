@@ -6,3 +6,4 @@ models
 GoogleNews-vectors-negative300.bin
 kw_wordphrase_vector100.txt
 out
+kw_wordphrase_vector100_2.txt
