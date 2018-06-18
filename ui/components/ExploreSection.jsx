@@ -25,11 +25,11 @@ export default React.createClass({
           <div className='filters'>
             <form className='form' onSubmit={this._explore}>
               <div className='form-group'>
-                <label htmlFor='queryInput'>Query:</label>
+                <label htmlFor='queryInput'>Query(AND, NOT AND):</label>
                 <input id='queryInput' ref='queryInput' className='form-control' type='text' defaultValue={this.state.params.query}></input>
               </div>
               <div className='form-group'>
-                <label htmlFor='limitInput'>Num Vectors:</label>
+                <label htmlFor='limitInput'>Num Vectors(Min 100):</label>
                 <input id='limitInput' ref='limitInput' className='form-control' type='text' defaultValue={this.state.params.limit}></input>
               </div>
               <div className='form-group'>
