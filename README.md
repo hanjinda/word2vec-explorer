@@ -43,12 +43,16 @@ A classic example of Word2Vec is the Google News model trained on 600M sentences
 ### Development
 
 Install Nodejs (you can also change 8 to most current 10):
-```curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
-sudo apt-get install -y nodejs```
+
+```
+curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+sudo apt-get install -y nodejs
+```
 
 In order to make changes to the user interface you will need some NPM dependencies:
 
-```bash
+```
+bash
 npm install
 npm start
 ```
